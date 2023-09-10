@@ -1,0 +1,26 @@
+---
+import BaseHead from '~/components/base-head.astro'
+import Header from '~/components/header.astro'
+import Footer from '~/components/footer.astro'
+
+interface Props {
+  site_title: string
+  site_description: string
+}
+
+const { site_title, site_description } = Astro.props
+---
+
+<!doctype html>
+<html lang='en'>
+  <head>
+    <BaseHead title={site_title} description={site_description} />
+  </head>
+  <body class='scroll-smooth text-base'>
+    <Header title={site_title} />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

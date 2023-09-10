@@ -1,0 +1,40 @@
+@import '@fontsource-variable/league-spartan';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* --background: 229 84% 5%; */
+    --background: 214 32% 91%; 
+    --foreground: 229 84% 5%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    /* --border: 214.3 31.8% 91.4%; */
+    --border: 240 3.7% 15.9%;
+    --border-alt: 216 12.2% 83.9%;
+    --input: 240 3.7% 15.9%;
+
+    /* --primary: 166 100% 70%; green*/
+    --primary: 180 100% 50%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 214 32% 91%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --card: 216 65% 11%;
+    --card-foreground: 211 25% 84%;
+
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
