@@ -3,9 +3,7 @@ title: 'Second post'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 22 2022'
 author: 'Michael Wong'
-heroImage:
-  url: '/src/content/blog/_images/blog-placeholder-2.jpg'
-  alt: 'Blog Placeholder 2'
+heroImage: '/src/content/blog/_images/blog-placeholder-2.jpg'
 tags: ['blogging']
 ---
 

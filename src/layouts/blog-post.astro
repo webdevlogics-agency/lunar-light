@@ -18,15 +18,7 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props
   >
     <article>
       <div class='mx-auto max-w-4xl'>
-        {
-          heroImage && (
-            <img
-              src={heroImage.url}
-              alt={heroImage.alt}
-              class='h-full w-auto'
-            />
-          )
-        }
+        {heroImage && <img src={heroImage} alt='' class='h-full w-auto' />}
       </div>
       <div class='m-auto max-w-3xl px-4 py-4 text-base'>
         <div class='mb-4 px-0 py-4 text-center'>
