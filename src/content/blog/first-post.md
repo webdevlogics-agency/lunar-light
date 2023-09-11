@@ -3,7 +3,7 @@ title: 'First post'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 08 2022'
 author: 'Michael Wong'
-heroImage: '/src/content/blog/_images/blog-placeholder-1.jpg'
+heroImage: '/assets/blog-placeholder-1.jpg'
 tags: ['blogging']
 ---
 

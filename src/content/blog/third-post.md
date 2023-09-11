@@ -3,7 +3,7 @@ title: 'Third post'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 15 2022'
 author: 'Michael Wong'
-heroImage: '/src/content/blog/_images/blog-placeholder-3.jpg'
+heroImage: '/assets/blog-placeholder-3.jpg'
 tags: ['blogging']
 ---
 
