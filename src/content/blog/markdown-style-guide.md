@@ -4,7 +4,7 @@ description: 'Here is a sample of some basic Markdown syntax that can be used wh
 pubDate: 'Jul 01 2022'
 author: 'Michael Wong'
 heroImage:
-  url: 'src/content/blog/_images/blog-placeholder-4.jpg'
+  url: '/src/content/blog/_images/blog-placeholder-4.jpg'
   alt: 'Blog Placeholder 4'
 tags: ['blogging']
 ---
